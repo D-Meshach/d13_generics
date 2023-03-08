@@ -1,0 +1,8 @@
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\bin\Debug\d13_generic_up.exe.config
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\bin\Debug\d13_generic_up.exe
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\bin\Debug\d13_generic_up.pdb
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\obj\Debug\d13_generic_up.csproj.AssemblyReference.cache
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\obj\Debug\d13_generic_up.csproj.SuggestedBindingRedirects.cache
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\obj\Debug\d13_generic_up.csproj.CoreCompileInputs.cache
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\obj\Debug\d13_generic_up.exe
+D:\Visual_studio_projects\d13_generic_up\d13_generic_up\obj\Debug\d13_generic_up.pdb
