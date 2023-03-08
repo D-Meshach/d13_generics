@@ -9,7 +9,7 @@ namespace d13_generic_up
 {
     internal class MaximumNumberCheck
     {
-
+        //Return Maximum values out of three
         public static int MaxNumCheck(int firstValue,int secondValue,int thirdValue) {
 
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue)>0) 

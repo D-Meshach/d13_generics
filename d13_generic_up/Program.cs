@@ -10,8 +10,9 @@ namespace d13_generic_up
     {
         static void Main(string[] args)
         {
-
-               int result= MaximumNumberCheck.MaxNumCheck(2,4,2);
+            //To find Greatest among 3 number
+                
+            int result= MaximumNumberCheck.MaxNumCheck(2,4,2);
             Console.WriteLine("The greater number is " + result);
 
             
