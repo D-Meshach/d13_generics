@@ -10,13 +10,20 @@ namespace d13_generic_up
     {
         static void Main(string[] args)
         {
+            int result;
             //To find Greatest among 3 number
-                
-            int result= MaximumNumberCheck.MaxNumCheck(2,4,2);
+            //T.C1 Max at first Position
+            result= MaximumNumberCheck.MaxNumCheck(4,3,2);
+            Console.WriteLine("The greater number is " + result);
+            //T.C2 Max at second Position
+            result = MaximumNumberCheck.MaxNumCheck(2, 5, 3);
+            Console.WriteLine("The greater number is " + result);
+            //T.C3 Max at third Positon
+            result = MaximumNumberCheck.MaxNumCheck(2, 6, 8);
             Console.WriteLine("The greater number is " + result);
 
-            
-           
+
+
         }
     }
 }
