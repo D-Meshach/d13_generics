@@ -223,6 +223,8 @@ namespace d13_generic_up
 
     }
 
+    //Print Max Output Added
+
     public class GenericPrintMax<T> {
        
         public GenericPrintMax() {
@@ -235,17 +237,18 @@ namespace d13_generic_up
                 ar[i] = Convert.ToDouble(Console.ReadLine());
 
             }
-            PrintMax<double>(ar);
+            PrintMax(ar);
             
 
             
         }
 
+
         public static void PrintMax<T>(T[] ar) {
             Array.Sort(ar);
             Array.Reverse(ar);
             Console.WriteLine("The greates number is " + ar[0]);
-            
+           
         }
 
     }
