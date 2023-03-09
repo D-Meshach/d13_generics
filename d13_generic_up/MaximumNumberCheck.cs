@@ -93,7 +93,7 @@ namespace d13_generic_up
             String maxString;
             //To find Greatest among 3 number
             //T.C1 Max at first Position
-            maxInt = MaximumNumberCheck.MaxNumCheck(4, 3, 2);
+            maxInt =MaximumNumberCheck.MaxNumCheck(4, 3, 2);
             Console.WriteLine("The greater number among 4,3,2 is " + maxInt);
             //T.C2 Max at second Position
             maxInt = MaximumNumberCheck.MaxNumCheck(2, 5, 3);
@@ -220,6 +220,33 @@ namespace d13_generic_up
 
         }
 
+
+    }
+
+    public class GenericPrintMax<T> {
+       
+        public GenericPrintMax() {
+            Console.WriteLine("Enter the total number of elements");
+            int arl = Convert.ToInt32(Console.ReadLine());
+            double[] ar = new double[arl];
+            for (int i = 0; i < ar.Length; i++)
+            {
+                Console.WriteLine("Enter number" + (i + 1));
+                ar[i] = Convert.ToDouble(Console.ReadLine());
+
+            }
+            PrintMax<double>(ar);
+            
+
+            
+        }
+
+        public static void PrintMax<T>(T[] ar) {
+            Array.Sort(ar);
+            Array.Reverse(ar);
+            Console.WriteLine("The greates number is " + ar[0]);
+            
+        }
 
     }
 }

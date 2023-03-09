@@ -22,11 +22,14 @@ namespace d13_generic_up
                     case 1://Maximum Among Three without Generics
                            NonGenerics nonGenerics = new NonGenerics();
                            break;
-                    case 2://Maximum amoung three using Generics
+                    case 2://Maximum among three using Generics
                         WithGenerics withGenerics = new WithGenerics();
                         break;
                     case 3://Maximum among more than three using generics
                         MultipleInputs multipleInputs = new MultipleInputs();
+                        break;
+                    case 4://Printmax with output
+                        GenericPrintMax<double> printMax = new GenericPrintMax<double>();
                         break;
                     default: Console.WriteLine("Enter Valid option");break;
 
